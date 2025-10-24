@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+    name: stress-victorialogs
+    namespace: argocd
+spec:
+    destination:
+        namespace: vm
+        server: https://kubernetes.default.svc
+    project: observability
+    source:
+        path: overlays/stress
+        repoURL: git@bitbucket.org:finexusgroup/victorialogs_k8s_manifest.git
+        targetRevision: main
+    syncPolicy:
+        automated:
+            prune: true
+            selfHeal: true
