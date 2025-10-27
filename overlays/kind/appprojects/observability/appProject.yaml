@@ -16,5 +16,4 @@ spec:
     - group: '*'
       kind: '*'
   sourceRepos:
-    - git@bitbucket.org:finexusgroup/otel_k8s_manifest.git
-    - git@bitbucket.org:finexusgroup/victorialogs_k8s_manifest.git
+    - https://github.com/Vail-X/project-victorialogs
