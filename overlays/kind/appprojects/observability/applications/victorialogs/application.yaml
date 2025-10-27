@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: stress-victorialogs
+  name: kind-victorialogs
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: observability
   source:
-    path: overlays/stress
+    path: overlays/kind
     repoURL: https://github.com/Vail-X/project-victorialogs
     targetRevision: main
   syncPolicy:
