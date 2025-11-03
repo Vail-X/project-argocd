@@ -17,3 +17,4 @@ spec:
       kind: '*'
   sourceRepos:
     - https://github.com/Vail-X/project-victorialogs
+    - https://github.com/Vail-X/project-grafana
