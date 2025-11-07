@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - appProject.yaml
   - ./applications/victorialogs
-  - ./applications/grafana
+  # - ./applications/grafana
