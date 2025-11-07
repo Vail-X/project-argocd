@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: kind-application
+  namespace: argocd
+spec:
+  destination:
+    namespace: application
+    server: https://kubernetes.default.svc
+  project: project
+  source:
+    path: overlays/kind
+    repoURL: https://github.com/Vail-X/project-application
+    targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
