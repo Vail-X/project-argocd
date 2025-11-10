@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - ../appprojects/argocd
   - ../appprojects/observability
+  - ../appprojects/projectapplication
 
 helmGlobals:
   chartHome: ../../../charts
