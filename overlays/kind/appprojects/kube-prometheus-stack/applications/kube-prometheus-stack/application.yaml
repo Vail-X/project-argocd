@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: vm
     server: https://kubernetes.default.svc
-  project: observability
+  project: kube-prometheus-stack
   source:
     path: overlays/kind
     repoURL: https://github.com/Vail-X/project-prometheus
