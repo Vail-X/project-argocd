@@ -5,7 +5,7 @@ resources:
   - ../appprojects/argocd
   - ../appprojects/observability
   - ../appprojects/projectapplication
-  # - ../appprojects/kube-prometheus-stack
+  - ../appprojects/kube-prometheus-stack
 
 helmGlobals:
   chartHome: ../../../charts
