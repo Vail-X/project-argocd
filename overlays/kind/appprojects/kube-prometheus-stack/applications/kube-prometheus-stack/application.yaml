@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: vm
+    namespace: cattle-monitoring-system
     server: https://kubernetes.default.svc
   project: kube-prometheus-stack
   source:
