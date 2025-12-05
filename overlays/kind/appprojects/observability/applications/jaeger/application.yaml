@@ -12,7 +12,7 @@ spec:
     path: overlays/kind
     repoURL: https://github.com/Vail-X/project-jaeger
     targetRevision: main
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  # syncPolicy:
+  #   automated:
+  #     prune: true
+  #     selfHeal: true
