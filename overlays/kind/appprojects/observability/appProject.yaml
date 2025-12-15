@@ -18,4 +18,4 @@ spec:
   sourceRepos:
     - https://github.com/Vail-X/project-victorialogs
     - https://github.com/Vail-X/project-tempo
-    - https://github.com/Vail-X/project-grafana
+    # - https://github.com/Vail-X/project-grafana
