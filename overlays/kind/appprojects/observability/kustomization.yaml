@@ -4,4 +4,4 @@ resources:
   - appProject.yaml
   - ./applications/victorialogs
   - ./applications/tempo
-  # - ./applications/grafana
+  - ./applications/grafana
