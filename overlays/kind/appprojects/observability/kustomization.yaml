@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - appProject.yaml
   - ./applications/victorialogs
-  - ./applications/tempo
-  - ./applications/alloy
+  # - ./applications/tempo
+  # - ./applications/alloy
