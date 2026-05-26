@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - appProject.yaml
   - ./applications/victorialogs
-  - ./applications/gatus
+  # - ./applications/gatus
   # - ./applications/tempo
   # - ./applications/alloy
